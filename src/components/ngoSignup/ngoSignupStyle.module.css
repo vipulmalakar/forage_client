@@ -1,0 +1,11 @@
+.inputRow {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.mainSignup {
+	margin-top: 10px;
+	margin-bottom: -10px;
+}
