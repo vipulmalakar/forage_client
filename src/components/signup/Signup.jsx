@@ -1,3 +1,4 @@
+import SideImage from '../sideImage/SideImage';
 import React from 'react';
 import Radiobtn from '../radiobtn/Radiobtn';
 import Logo from '../logo/Logo';
@@ -13,6 +14,7 @@ function Signup() {
 		e.preventDefault();
 	};
 	return (
+		<>
 		<div className={style.signupContainer}>
 			<p className={style.signupHeader}>Sign Up to</p>
 			<Logo />
@@ -36,6 +38,8 @@ function Signup() {
 			</Link>
 			<Outlet />
 		</div>
+		<SideImage/>
+		</>
 	);
 }
 

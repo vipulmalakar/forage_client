@@ -1,3 +1,4 @@
+import SideImage from '../sideImage/SideImage';
 import React from 'react';
 import style from './loginStyle.module.css';
 import { Link } from 'react-router-dom';
@@ -5,12 +6,14 @@ import Input from '../input/Input';
 import Button from '../button/Button';
 import FormFooter from '../formFooter/FormFooter';
 import Logo from '../logo/Logo';
-
 function Login() {
+
 	const submitLoginForm = (e) => {
 		e.preventDefault();
+
 	};
 	return (
+		<>
 		<div className={style.formContainer}>
 			{/* FORM HEADER */}
 			<div className={style.formHeader}>
@@ -37,7 +40,7 @@ function Login() {
 						<p>Forgot Password ?</p>
 					</Link>
 				</div>
-				<Button type="submit" value="LOG IN" />
+				<Button type="submit" value="LOG IN"  />
 			</form>
 			{/* LOGIN FORM */}
 
@@ -48,6 +51,8 @@ function Login() {
 				<FormFooter statement="Don't have an account ? " link="Sign Up Now" />
 			</Link>
 		</div>
+		<SideImage />
+		</>
 	);
 }
 

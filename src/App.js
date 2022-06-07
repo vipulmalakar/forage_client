@@ -1,15 +1,11 @@
-import { BrowserRouter } from 'react-router-dom';
 import './App.css';
-import AuthPage from './components/authPage/AuthPage';
-
+import Layout from './Components/Layout/Layout';
 function App() {
-	return (
-		<div className="App">
-			<BrowserRouter>
-				<AuthPage />
-			</BrowserRouter>
-		</div>
-	);
+  return (
+    <div className="App">
+        <Layout/>
+    </div>
+  );
 }
 
 export default App;

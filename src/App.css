@@ -1,3 +1,29 @@
-.App {
-	height: 100vh;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+a:hover {
+  color: #00D495;
+}
+
+/* button {
+  cursor: pointer;
+  border: 0;
+  outline: 0;
+} */
+
+ul {
+  list-style-type: none;
+}
+
+.App{
+  height: 100vh;
 }

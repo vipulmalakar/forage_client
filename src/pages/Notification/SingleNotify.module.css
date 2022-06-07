@@ -1,0 +1,38 @@
+.karma{
+    height: 10vh;
+    width: 20vw;
+    background: linear-gradient(to right, #00e4a1 -5%, #f5f7fa 66%);
+}
+.seccontain{
+    display: flex;
+    flex-direction: row;}
+.side{
+    display: flex;
+    flex-direction: row-reverse;
+    height: 10px;
+}
+.iconic{
+    width: 50px;
+    height: 30px;
+    margin: 20px 20px 0 20px;
+}
+.contant{
+margin: 0;
+}
+.karma h5,.Accept h5,.timeout h5{
+    margin: 0;
+}
+.karma p,.Accept p,.timeout p{
+    font-size: 0.8rem;
+    margin: 0;
+}
+.Accept{
+    height: 10vh;
+    width: 20vw;
+    background: linear-gradient(to right,#FFBE00 -5%, #f5f7fa 66% );
+}
+.timeout{
+    height: 10vh;
+    width: 20vw;
+    background: linear-gradient(to right,#FF316D -5%, #f5f7fa 66%);
+}

@@ -1,0 +1,32 @@
+.viewcontainer{
+padding-top: 40px;
+width: 800px;
+padding-left: 30px;
+}
+.imgcontainer{
+    margin-top: 140px;
+    margin-left: 70px;
+}
+.infocontainer{
+    margin-left: 70px;
+    font-family: 'Maven Pro';
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+font-style: normal;
+font-weight: 600;
+font-size: 23.031px;
+line-height: 27px;
+color: rgba(37, 38, 68, 0.7);
+}
+.side{
+ display: flex;
+ flex-direction: row;
+}
+.ls{
+ padding: 10px 0 0 10px;
+}
+.rs{
+ padding-top: 10px;
+ margin-left: 350px;
+}

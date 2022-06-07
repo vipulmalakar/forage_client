@@ -1,0 +1,92 @@
+.profilecontainer{
+    position: absolute;
+    z-index: 0;
+    border-radius: 30px;
+    width: 550px;
+    height: 89vh;
+    top:20px;
+    left: 1280px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button {
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+  }
+.Back{
+    position: absolute;
+    top:20px;
+    left: 1280px;
+
+}
+.infosection{
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Maven Pro';
+font-style: normal;
+font-weight: 600;
+font-size: 35px;
+line-height: 41px;
+}
+.infosection > img{
+    width: 10vw;
+    height: 20vh;
+}
+.karma{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 200px;
+    text-align: center;
+    font-family: 'Maven Pro';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+}
+
+.linkcontainer{
+    padding-top: 50px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+gap: 40px;
+text-align: center;
+}
+.setting{
+    font-size: 24px;
+    padding-top: 28px;
+width: 400px;
+height: 100px;
+background: #F4F6F9;
+border-radius: 14px;
+}
+.notify{
+    font-size: 24px;
+width: 400px;
+height: 100px;
+padding-top: 28px;
+background: #F4F6F9;
+border-radius: 14px;
+}
+.post{
+width: 400px;
+height: 150px;
+padding-top:30px;
+background: #F4F6F9;
+border-radius: 14px;
+}
+.edit{
+width: 158px;
+height: 72px;
+background: #00E4A1;
+box-shadow: 0px 14px 30px rgba(0, 228, 161, 0.2);
+border-radius: 50px;
+}

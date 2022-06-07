@@ -1,0 +1,17 @@
+.historyContainer{
+    margin-top: 20px;
+    margin-left:22px;
+}
+.titleContainer > h3{
+    font-family: 'Maven Pro';
+    font-style: normal;
+    margin-left: 25px;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.card{
+    margin-top: 60px;
+    margin-left: 25px;
+}
